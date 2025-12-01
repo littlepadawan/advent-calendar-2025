@@ -73,7 +73,7 @@ function initializeHouseClick() {
         const houseId = parseInt(house.id.split('-')[1], 10); // Get number from html id
         
         house.addEventListener('click', () => {
-            if (currentYear != 2024 || houseId <= currentDay || currentDay > 24) {
+            if (currentYear != 2025 || houseId <= currentDay || currentDay > 24) {
                 // All dors are open after 24th December
                 let imagePath;
                 if (houseId == 5 || houseId == 8 || houseId == 9) {
