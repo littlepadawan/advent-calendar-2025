@@ -76,7 +76,7 @@ function initializeHouseClick() {
             if (currentYear != 2025 || houseId <= currentDay || currentDay > 24) {
                 // All dors are open after 24th December
                 let imagePath;
-                if (houseId == 5 || houseId == 8 || houseId == 9) {
+                if (houseId == 5) {
                     imagePath = `assets/images/letters/letter_${houseId}.gif`;
                 } else {
                     imagePath = `assets/images/letters/letter_${houseId}.png`;
